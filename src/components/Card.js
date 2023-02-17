@@ -17,7 +17,7 @@ function Card({ onClick, card, index, isInactive, isFlipped, isDisabled }) {
                 <img src={stevensShirt} alt='stevens star shirt' />
             </div>
             <div className='card-face card-back-face'>
-                <img src={card.image} />
+                <img src={card.image} alt=''/>
             </div>
         </div>
     );

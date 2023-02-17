@@ -1,6 +1,3 @@
-import React from "react";
-
-
 function ShuffleCards(array) {
     let length=array.length;
     for (let i=length; i>0; i--) {

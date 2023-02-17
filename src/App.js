@@ -69,6 +69,7 @@ function App() {
     }
     return () => {
       clearTimeout(timeout);
+          // eslint-disable-next-line react-hooks/exhaustive-deps
     }
   }, [openCards]);
 
@@ -97,7 +98,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={stevenuniverselogo} width="200px"/>
+        <img src={stevenuniverselogo}alt="steven universe logo" width="200px"/>
         <h3>Play the Card Matching Game</h3>
         <div>
           Find two matching cards to make them vanish.
