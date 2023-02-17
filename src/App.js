@@ -3,7 +3,7 @@ import CardsArray from './CardsArray';
 import ShuffleCards from './components/Shuffle';
 import Card from './components/Card';
 import './App.css';
-import stevenuniverselogo from '/Users/tpl1122_17/Techtonica/Techtonica-Assignments/memory-game/src/images/stevenuniverselogo.png'
+import stevenuniverselogo from './images/stevenuniverselogo.png'
 
 
 
