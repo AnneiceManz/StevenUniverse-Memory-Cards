@@ -66,15 +66,16 @@ function App() {
     let timeout=null;
     if (openCards.length === 2) {
       timeout = setTimeout(evalute, 300);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }
     return () => {
       clearTimeout(timeout);
-          // eslint-disable-next-line react-hooks/exhaustive-deps
     }
   }, [openCards]);
 
   useEffect(() => {
     checkCompletion();
+          // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clearedCards]);
   const checkIsFlipped = (index) => {
     return openCards.includes(index);
