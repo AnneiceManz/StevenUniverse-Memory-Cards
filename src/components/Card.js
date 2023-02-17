@@ -1,7 +1,7 @@
 import React from 'react';
 import classnames from 'classnames';
-import './card.css'
-import stevensShirt from './images/stevensShirt.jpeg';
+import '../card.css'
+import stevensShirt from '../images/stevensShirt.jpeg';
 
 function Card({ onClick, card, index, isInactive, isFlipped, isDisabled }) {
     const handleClick = () => {
