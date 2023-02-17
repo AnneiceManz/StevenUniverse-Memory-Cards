@@ -76,7 +76,7 @@ function App() {
 
   useEffect(() => {
     checkCompletion();
-          // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [clearedCards]);
   const checkIsFlipped = (index) => {
     return openCards.includes(index);
